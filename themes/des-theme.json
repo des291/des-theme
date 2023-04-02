@@ -7,12 +7,12 @@
 		"terminal.background": "#1A1A19",
 		"terminal.foreground": "#FFFFFFCC",
 		"terminal.ansiBrightBlack": "#FFFFFF59",
-		"terminal.ansiBrightRed": "#FF6E6E",
-		"terminal.ansiBrightGreen": "#69FF94",
-		"terminal.ansiBrightYellow": "#FFFFA5",
-		"terminal.ansiBrightBlue": "#D6ACFF",
-		"terminal.ansiBrightMagenta": "#FF92DF",
-		"terminal.ansiBrightCyan": "#A4FFFF",
+		"terminal.ansiBrightRed": "#FF1500",
+		"terminal.ansiBrightGreen": "#00DB6E",
+		"terminal.ansiBrightYellow": "#FFFF00",
+		"terminal.ansiBrightBlue": "#0080FF",
+		"terminal.ansiBrightMagenta": "#F76EC9",
+		"terminal.ansiBrightCyan": "#00FFFF",
 		"terminal.ansiBrightWhite": "#FFFFFF",
 		"terminal.ansiBlack": "#1A1A19",
 		"terminal.ansiRed": "#FF4433",
@@ -103,12 +103,6 @@
 		"editorCodeLens.foreground": "#FFFFFF59",
 		"editorBracketMatch.border": "#ff000000",
 		"editorBracketMatch.background": "#F76EC9",
-		"editorBracketHighlight.foreground1": "#FFFFFFCC",
-		"editorBracketHighlight.foreground2": "#F76EC9",
-		"editorBracketHighlight.foreground3": "#8BE9FD",
-		"editorBracketHighlight.foreground4": "#50FA7B",
-		"editorBracketHighlight.foreground5": "#BD93F9",
-		"editorBracketHighlight.foreground6": "#FFB86C",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF4433",
 		"editorOverviewRuler.border": "#1A1A19",
 		"editorOverviewRuler.selectionHighlightForeground": "#FFB86C",
@@ -268,7 +262,8 @@
 				"support.type",
 				"meta.type.annotation entity.name.type",
 				"source.go storage.type",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"variable.other.object"
 			],
 			"settings": {
 				"foreground": "#FFDBBD",
@@ -310,7 +305,10 @@
 		{
 			"scope": [
 				"meta.function-call entity.name.function",
-				"meta.method-call entity.name.function"
+				"meta.method-call entity.name.function",
+				"meta.function-call variable.other.object",
+				"meta.var.expr variable.other.object",
+				"meta.function variable.other.object"
 			],
 			"settings": {
 				"foreground": "#FFFFFFCC",
@@ -372,6 +370,12 @@
 			"scope": "meta.tag entity.name",
 			"settings": {
 				"foreground": "#FFDBBD"
+			}
+		},
+		{
+			"scope": "meta.tag.metadata.doctype entity.name",
+			"settings": {
+				"foreground": "#94B3D1"
 			}
 		},
 		{
