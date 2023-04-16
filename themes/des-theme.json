@@ -219,7 +219,9 @@
 		{
 			"scope": [
 				"meta.annotation",
-				"meta.variable"
+				"meta.variable",
+				"meta.function.decorator entity.name.function.decorator",
+				"meta.function.decorator punctuation.definition.decorator"
 			],
 			"settings": {
 				"foreground": "#6C9380",
