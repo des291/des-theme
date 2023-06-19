@@ -101,8 +101,8 @@
 		"editorRuler.foreground": "#FFFFFF1A",
 		"editorCursor.foreground": "#F76EC9",
 		"editorCodeLens.foreground": "#FFFFFF59",
-		"editorBracketMatch.border": "#ff000000",
-		"editorBracketMatch.background": "#F76EC9",
+		"editorBracketMatch.border": "#F76EC9",
+		"editorBracketMatch.background": "#ff000000",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF4433",
 		"editorOverviewRuler.border": "#1A1A19",
 		"editorOverviewRuler.selectionHighlightForeground": "#FFB86C",
@@ -363,6 +363,14 @@
 			"scope": [
 				"meta.tag entity",
 				"meta.tag.attributes"
+			],
+			"settings": {
+				"foreground": "#FFFFFFCC"
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.package"
 			],
 			"settings": {
 				"foreground": "#FFFFFFCC"
