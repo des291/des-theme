@@ -2,7 +2,63 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "des-theme",
 	"author": "des",
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"namespace": "#FFFFFFCC",
+		"class": {
+			"foreground": "#94B3D1",
+			"fontStyle": ""
+		},
+		"class.declaration": "#F7AC6E",
+		"class.importDeclaration": "#F7AC6E",
+		"enum.declaration": "#FFFFFFCC",
+		"enum": "#94B3D1",
+		"enumMember": "#94D1B3",
+		"enumMember.declaration": "#FFFFFFCC",
+		"interface": "#FFFFFFCC",
+		"interface.static": "#FFDBBD",
+		"struct": "#FFFFFFCC",
+		"typeParameter": "#94B3D1",
+		"typeParameter.declaration": "#FFFFFFCC",
+		"type": "#FFFFFFCC",
+		"type.declaration": "#F7AC6E",
+		"parameter": "#FFFFFFCC",
+		"variable.declaration": "#FFFFFFCC",
+		"variable.builtin": "#FFFFFFCC",
+		"variable": "#FFFFFFCC",
+		"variable.decorator": "#6C9380",
+		"property": "#6C9380",
+		"property.declaration": "#FFFFFFCC",
+		"decorator": "#a6ff00",
+		"event": "#a6ff00",
+		"function": {
+			"foreground": "#FFFFFFCC",
+			"fontStyle": ""
+		},
+		"function.declaration": {
+			"foreground": "#FFF",
+			"fontStyle": "bold"
+		},
+		"method.declaration": {
+			"foreground": "#FFF",
+			"fontStyle": "bold"
+		},
+		"method": {
+			"foreground": "#FFFFFFCC",
+			"fontStyle": ""
+		},
+		"macro": "#a6ff00",
+		"label": "#a6ff00",
+		"comment": "#FFFFFF59",
+		"string": "#94D1B3",
+		"keyword": "#94B3D1",
+		"number": "#94D1B3",
+		"regexp": {
+			// "background": "#3399FF1A",
+			"foreground": "#a6ff00"
+		},
+		"operator": "#FFC799"
+	},
 	"colors": {
 		"terminal.background": "#1A1A19",
 		"terminal.foreground": "#FFFFFFCC",
@@ -350,7 +406,8 @@
 		{
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#3399FF1A"
+				// "background": "#3399FF1A",
+				"foreground": "#a6ff00"
 			}
 		},
 		{
