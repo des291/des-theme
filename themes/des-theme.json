@@ -253,7 +253,8 @@
 		"breadcrumbPicker.background": "#1A1A19",
 		"listFilterWidget.background": "#343746",
 		"listFilterWidget.outline": "#B3B3B333",
-		"listFilterWidget.noMatchesOutline": "#FF4433"
+		"listFilterWidget.noMatchesOutline": "#FF4433",
+		"textLink.foreground": "#94B3D1"
 	},
 	"tokenColors": [
 		{
